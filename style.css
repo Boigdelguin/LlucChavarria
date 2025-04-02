@@ -1,0 +1,160 @@
+/*Body*/
+
+body{
+  background-color: #EEEE;
+  color: black;
+  margin: 10px;
+  padding: 0;
+  text-align: center;
+  font-size: medium;
+  font-family: sans-serif;
+}
+
+footer{
+  background-color: #EEEE;
+  color: black;
+  margin: 10px;
+  padding: 0;
+  text-align: center;
+  font-size: medium;
+  font-family: sans-serif;
+}
+
+hr{
+  height:5px;
+  border-width:0;
+  background-color:#000000;
+}
+
+
+.mural{
+  display:inline-block;
+  margin: 3em;
+}
+
+/*Paragrafs*/
+
+.just{
+  width: 20em;
+  /*padding: 0 25%;*/
+  text-align: center;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.just2{
+  width: 50%;
+  padding: 0 25%;
+  text-align: center;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.peu{
+  width: 100%;
+  padding: 0;
+  text-align: center;
+}
+
+
+
+button{
+  background-color: aqua;
+  color: black;
+  border: none;
+}
+
+
+/* Navigation */
+
+.navigation {
+  box-sizing: border-box;
+  background-color: #9CDBEE;
+  overflow: auto;
+  /*padding: 18px 50px;*/
+  position: relative;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+nav {
+  padding: 0;
+  margin: 0;
+  color: #FFF;
+  display: inline-block;
+  font-family: 'Oxygen', sans-serif;
+  font-weight: 300;
+  letter-spacing: 2px;
+  margin: 0;
+  padding: 20px 18px 10px 18px;
+  text-transform: uppercase;
+}
+
+
+/* Table */
+
+table.doble {
+  height: 40%;
+  left: 10%;
+  margin: 20px;
+  margin-left: 450px;
+  overflow-y: scroll;
+  position: static;
+  width: 40%;
+}
+
+table.taula {
+  height: 40%;
+  left: 10%;
+  margin: 20px auto;
+  overflow-y: scroll;
+  position: static;
+  width: 80%;
+}
+
+thead th {
+  background: #88CCF1;
+  color: #00000;
+  font-weight: 100;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+/*tr {
+  background: #f4f7f8;
+  border-bottom: 1px solid #FFF;
+  margin-bottom: 5px;
+}
+
+th, td {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  padding: 20px;
+  text-align: left;
+  width: 33.3333%;
+}*/
+
+
+
+
+/*Casella de formulari*/
+
+fieldset{
+  text-align: center;
+  padding: 2em;
+  margin: 0 22.5%;
+  width: 50%;
+}
+
+
+
+.curta{
+  width: 75%;
+}
+
+.Carret{
+  color: red;
+  font-weight: bold;
+}

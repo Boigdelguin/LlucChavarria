@@ -1,0 +1,148 @@
+<!DOCTYPE html> 
+
+<html>
+
+  <head>
+    <title>Lluc Chavarria</title>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Lato: 100,300,400,700|Luckiest+Guy|Oxygen:300,400" rel="stylesheet">
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <script src="botiga.js"></script>
+    <meta name="author" content="Lluc Chavarria">
+    <script>let carro = 0;</script>
+  </head>
+
+  <body>  
+    <header>
+      <nav class="navigation">
+        <div class="menu">    
+          <a href="./Index.html">Inici</a> |
+          <a href="./CV.html">CV</a> |
+          <a href="./Arts.html">Arts</a> |
+          <a href="./Registre.html">Registre</a> |
+          <a href="./Inici de sessió.html">Inici de sessió</a> | 
+          <input type="search" placeholder="Buscar..." /> |
+          <a href="./Carret.html"><img src=".\Arts\Tèxtils\carro.png"width="20" height="20"/></a>
+          <span id="Carret" class="Carret">0</span>
+          <script scr="botig.js"></script>
+        </div>
+      </nav>
+    </header>
+    <h1>ARTS TÈXTILS</h1> 
+
+    <p class="just2">M'agraden tant les arts tèxtils que tinc intenció d'obrir una botiga sota el nom de "Interès Tel·lar". Si veus alguna cosa que t'agradi, no dubtis en passar per la meva botigueta de l'app de Tedoo o posar-te en contacte amb mi.
+    </p>
+    <div id="ganxet">
+        <h2>Ganxet</h2>
+        <div id='bossa de mà' class="mural">
+            <img src=".\Arts\Tèxtils\Ganxet\20231014_110220.jpg" alt= 'Bossa de mà' width="320" height="310"/><br>
+            <p>
+              <b>Bossa de mà amb botó</b>
+            </p>
+            <p class="just">
+                Bossa de mà d'una sola nança (Crossbody) i de dos colors amb solapa i botó.
+            </p><br>
+            <button class='compra' onclick="
+                funcioCompra();
+            ">Compra</button>
+        </div>
+        <div id='funda ampolla' class="mural">
+            <img src=".\Arts\Tèxtils\Ganxet\20230926_112213.jpg" alt= 'Funda per ampolla de vidre' width="290" height="310"/><br>
+            <p>
+              <b>Funda per ampolla de vidre
+            </b>
+            </p>
+            <p class="just">
+                Funda de dos colors per a ampolla de vidre amb la part superior més estreta per evitar que rellisqui l'ampolla en la mesura del possible.
+            </p><br>
+            <button class='compra' onclick="
+                funcioCompra();
+            ">Compra</button>
+        </div>
+        <div id='Cor per penjar' class="mural">
+            <img src=".\Arts\Tèxtils\Ganxet\20230214_150949.jpg" alt= 'Cor per penjar' width="320" height="310"/><br>
+            <p>
+              <b>Cor per penjar</b>
+            </p>
+            <p class="just">
+                Cor de mida reduïda amb veta per penjar o enganxar a un clauer.
+            </p><br>
+            <button class='compra' onclick="
+                carro = carro + 1;
+                document.getElementById('Carret').innerHTML = `${carro}`;
+            ">Compra</button>
+        </div>
+        <div id='Fulles de tardor' class="mural">
+            <img src=".\Arts\Tèxtils\Ganxet\20231127_200338.jpg" alt= 'Fulles de tardor' width="320" height="310"/><br>
+            <p>
+              <b>Fulles de tardor</b>
+            </p>
+            <p class="just">
+                Fulles de diferents colors de tardor.
+            </p><br>
+            <button class='compra' onclick="
+                carro = carro + 1;
+                document.getElementById('Carret').innerHTML = `${carro}`;
+            ">Compra</button>
+        </div>
+        <div id='Targeter' class="mural">
+            <img src=".\Arts\Tèxtils\Ganxet\20231103_202159.jpg" alt= 'Targeter' width="320" height="310"/><br>
+            <p>
+              <b>Targeter</b>
+            </p>
+            <p class="just">
+                Petita bossa per portar targetes de dos colors amb solapa i botó.
+            </p><br>
+            <button class='compra' onclick="
+                carro = carro + 1;
+                document.getElementById('Carret').innerHTML = `${carro}`;
+            ">Compra</button>
+        </div>
+        <div id='Fantasmet' class="mural">
+            <img src=".\Arts\Tèxtils\Ganxet\20231019_181401.jpg" alt= 'Fantasmet' width="320" height="310"/><br>
+            <p>
+              <b>Fantasmet</b>
+            </p>
+            <p class="just">
+                Fantasma petit de color blanc.
+            </p><br>
+            <button class='compra' onclick="
+                carro = carro + 1;
+                document.getElementById('Carret').innerHTML = `${carro}`;
+            ">Compra</button>
+        </div>
+        <div id='Agafadors de cuina' class="mural">
+            <img src=".\Arts\Tèxtils\Ganxet\20240214_190730.jpg" alt= 'Agafadors de cuina' width="320" height="310"/><br>
+            <p>
+              <b>Agafadors de cuina</b>
+            </p>
+            <p class="just">
+                Agafadors de cuina de varis colors amb fil 100% de cotó.
+            </p><br>
+            <button class='compra' onclick="
+                carro = carro + 1;
+                document.getElementById('Carret').innerHTML = `${carro}`;
+            ">Compra</button>
+        </div>
+
+
+    </div>
+
+    <footer>
+      <br>
+      <hr>
+      <br>
+      <a href="llucchavarria102@gmail.com" target="_blank">llucchavarria102@gmail.com</a><br><br>
+      <a href="https://www.instagram.com/boigdelguin/" target="_blank">
+      <img src=".\Logos\insta logo.png" width="32" height="32"/></a>
+      <a href="https://twitter.com/ChavarriaLluc" target="_blank">
+      <img src=".\Logos\twitter logo.jpg" width="32" height="32"/></a>
+      <a href="https://www.linkedin.com/in/lluc-chavarria-escriche-9960b21b6/" target="_blank">
+      <img src=".\Logos\linkedin logo.png" width="32" height="32"/></a>
+      <a href="https://www.tedooo.com/user/65a00cab9e475a23f74b7b60" target="_blank">
+      <img src=".\Logos\tedoo logo.png" width="32" height="32"/></a>
+      <p class="peu">Lluc Chavarria Escriche, 2024</p>
+    </footer>
+  </body>
+
+</html>
